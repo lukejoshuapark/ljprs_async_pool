@@ -1,0 +1,11 @@
+[package]
+name = "ljprs_async_pool"
+description = "Provides an async-friendly pool data structure using tokio."
+homepage = "https://github.com/lukejoshuapark/ljprs_async_pool"
+repository = "https://github.com/lukejoshuapark/ljprs_async_pool"
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+tokio = { version = "1", features = ["macros", "rt", "sync"] }
